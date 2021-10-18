@@ -1,0 +1,51 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gueesing  Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body cz-shortcut-listen="true" data-new-gr-c-s-check-loaded="14.1034.0" data-gr-ext-installed="">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mt-3 text-center bg-success text-white">
+                <h1> <span class="mr-5"></span>My Gueesing Game </h1>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-5">
+                <div class="help">
+                    <p class="bg-primary text-white p-3 font-weight-bold display-5">Please type any of 0 - 9 numbers for correct guessing</p>
+                    <p class="bg-primary text-white p-3 font-weight-bold display-5">You can type only 5 times  <span id="load-page"></span></p> 
+                </div>
+                    <div class="input-group mb-5">
+                        <input type="text" class="form-control text-center" id="input" placeholder="Type Number Here">
+                        <div class="input-group-append">
+                            <button class="btn btn-info"  id="numberBtn">Guess Number</button>
+                            <button class="btn btn-danger"  id="reset">Reset</button>
+                        </div>
+                      </div>                 
+
+                <div id="showResult">
+                      
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-5">
+                
+                <h2 class="text-white">Your Scores here</h2>
+                <h5 class="mt-3 text-white"><span>No. of Correct Numbers: <button id="correctScore" class="btn btn-success"></button></span> <span class="text-white"> No. of Wrong Numbers: <button id="wrongScore" class="btn btn-danger"></button></span></h5>
+                  <div>
+                      <img id="image" class="img-responsive">
+                      
+                  </div>
+                  
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+</body>
+</html>
